@@ -1,0 +1,94 @@
+@font-face{
+    font-family: GeneralSans;
+    src: url(GeneralSans_Complete/Fonts/OTF/GeneralSans-Regular.otf);
+}
+@font-face{
+    font-family: GeneralSansBold;
+    src: url(GeneralSans_Complete/Fonts/OTF/GeneralSans-Bold.otf);
+}
+
+@font-face{
+    font-family: GeneralSansLightBold;
+    src: url(GeneralSans_Complete/Fonts/OTF/GeneralSans-Semibold.otf);
+}
+
+body{
+    font-family: GeneralSans;
+    padding: 0%;
+    margin: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #252525;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.logo{
+    font-family: GeneralSansBold;
+    font-size: 25px;
+    color: white;
+}
+/* Nav Bar------------------------------------------- */
+
+.herobox{
+    background: linear-gradient(to top left,hsl(247, 29%, 39%), hsl(141, 100%, 62%));
+    height: 23rem;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.heroh1{
+    font-family: arial;
+    font-size: 55px;
+    color: black;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.heroinfo{
+    font-family: GeneralSans;
+    font-weight: ;
+    font-size: 25px;
+    color: black;
+    padding-left: 2%;
+    word-wrap: break-word;
+    width: 450px;
+    margin-top: -20px;
+}
+
+.herobox .herobuttons{
+    display: flex;
+    gap: 10px;
+    padding-left: 2%;
+    padding-top: 10px;
+    height: 45px;
+    margin-top: 5%;
+}
+
+.buttonRead{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 170px;
+    font-size: 15px;
+    border: none;
+}
+
+.buttonJoin{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius:5px;
+    border: 1px solid black;
+}
