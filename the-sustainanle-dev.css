@@ -26,6 +26,7 @@ body{
     display: flex;
     align-items: center;
     padding-top: 25px;
+    
 }
 
 ul{
@@ -33,18 +34,58 @@ ul{
     justify-content: space-between;
     list-style-type: none;
     gap: 5px;
+    position: fixed;
+    right: 5%;
 }
 
+.joinbut{
+    height: 40px;
+    font-size: 17px;
+    width: 65px;
+    border: none;
+    background-color:#424242;
+    color: white;
+    border-radius: 5px;
+}
+
+.logbut{
+    height: 40px;
+    font-size: 17px;
+    width: 65px;
+    border: none;
+    background-color:#424242;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.menubut{
+    border: none;
+    height: 40px;
+    font-size: 17px;
+    width: 65px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+
+
+
 .logo{
-    font-family: GeneralSansBold;
+    font-family: arial;
     font-size: 25px;
     color: white;
+    font-weight: bold;
 }
+/* MESSED UP THE NAV IDK WHATS WRONG JUST REDO IT */
 /* Nav Bar------------------------------------------- */
 
 .herobox{
     background: linear-gradient(to top left,hsl(247, 29%, 39%), hsl(141, 100%, 62%));
-    height: 23rem;
+    max-height: 24rem;
+    height: 24rem;
     margin-top: 30px;
     border-radius: 10px;
 }
@@ -52,8 +93,9 @@ ul{
     font-family: arial;
     font-size: 55px;
     color: black;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-left: 2%;
+    padding-top: 50px;
 }
 
 .heroinfo{
@@ -73,7 +115,7 @@ ul{
     padding-left: 2%;
     padding-top: 10px;
     height: 45px;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .buttonRead{
