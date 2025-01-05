@@ -16,70 +16,97 @@ body{
     font-family: GeneralSans;
     padding: 0%;
     margin: 0%;
-    padding-left: 5%;
-    padding-right: 5%;
     background-color: #252525;
     color: white;
-}
-
-.navbar{
-    display: flex;
-    align-items: center;
-    padding-top: 25px;
+    height: 1000px;
     
 }
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.logo{
+    font-family: arial;
+    color: #ffffff;
+    padding-left: 5%;
+}
+
+header{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding: 0%;
+   margin: 0%;
+   
+}
+
+
 
 ul{
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
-    gap: 5px;
-    position: fixed;
-    right: 5%;
-}
-
-.joinbut{
-    height: 40px;
-    font-size: 17px;
-    width: 65px;
-    border: none;
-    background-color:#424242;
-    color: white;
-    border-radius: 5px;
+    align-items: center;
+    gap: 15px;
+    font-family: arial;
 }
 
 .logbut{
+    background-color: #5353538c;
     height: 40px;
-    font-size: 17px;
-    width: 65px;
+    width: 80px;
     border: none;
-    background-color:#424242;
-    color: white;
     border-radius: 5px;
-
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
 }
 
-.menubut{
-    border: none;
+.joinbut{
+    background-color: #5353538c;
     height: 40px;
-    font-size: 17px;
-    width: 65px;
-    color: black;
-    background-color: white;
+    width: 80px;
+    border: none;
     border-radius: 5px;
-
-}
-
-
-
-
-.logo{
-    font-family: arial;
-    font-size: 25px;
     color: white;
-    font-weight: bold;
+    font-size: 17px;
+
 }
-/* MESSED UP THE NAV IDK WHATS WRONG JUST REDO IT */
+
+.menuBut{
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    font-family: airal;
+    color: rgb(0, 0, 0);
+    border: 0.5px solid #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 795px;
+    padding-top: 90px;
+    width: 100%;
+    backdrop-filter: blur(15px);
+    background-color: #252525c4;
+    margin-bottom: 5px;
+}
+
+
+
+
 /* Nav Bar------------------------------------------- */
 
 .herobox{
@@ -88,6 +115,9 @@ ul{
     height: 24rem;
     margin-top: 30px;
     border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .heroh1{
     font-family: arial;
@@ -100,12 +130,11 @@ ul{
 
 .heroinfo{
     font-family: GeneralSans;
-    font-weight: ;
-    font-size: 25px;
+    font-size: 30px;
     color: black;
     padding-left: 2%;
     word-wrap: break-word;
-    width: 450px;
+    width: 550px;
     margin-top: -20px;
 }
 
@@ -115,7 +144,7 @@ ul{
     padding-left: 2%;
     padding-top: 10px;
     height: 45px;
-    margin-top: 6%;
+    margin-top: 5%;
 }
 
 .buttonRead{
