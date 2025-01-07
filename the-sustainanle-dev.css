@@ -22,87 +22,72 @@ body{
     
 }
 
-li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
 
-li{
-    list-style: none;
-    display: inline-block;
-}
-
-.logo{
-    font-family: arial;
-    color: #ffffff;
-    padding-left: 6%;
-}
-
-header{
-   display: flex; 
-   align-items: center;
-   justify-content: space-between;
-   width: 100%;
-   padding: 0%;
-   margin: 0%;
-   
-}
-
-
-
-ul{
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
-    font-family: arial;
+    margin-left: 6%;
+    margin-right: 6%;
+    max-width: 1300px;
 }
 
-.logbut{
-    background-color: #5353538c;
-    height: 40px;
-    width: 80px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 17px;
-    margin-left: 10px;
+header{
+    width: 100%;
+    position: fixed;
+    top: 0%; 
+    backdrop-filter: blur(15px);
+    background-color: #25252587;   
+}
+
+ul{
+    display: flex;
+    gap: 15px;
 }
 
 .joinbut{
-    background-color: #5353538c;
     height: 40px;
-    width: 80px;
-    border: none;
-    border-radius: 5px;
-    color: white;
+    width: 70px;
     font-size: 17px;
+    background-color: #5353538c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-family: GeneralSans;
+}
 
+.logbut{
+    height: 40px;
+    width: 70px;
+    font-size: 17px;
+    background-color: #5353538c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-family: GeneralSans;
 }
 
 .menuBut{
     height: 40px;
-    width: 80px;
-    border-radius: 5px;
-    font-family: airal;
-    color: rgb(0, 0, 0);
-    border: 0.5px solid #ffffff;
-    font-family: Arial;
+    width: 70px;
     font-size: 17px;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-family: GeneralSans;
 }
 
-.navbar{
-    position: fixed;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    gap: 770px;
-    padding-top: 90px;
-    width: 100%;
-    backdrop-filter: blur(15px);
-    background-color: #252525c4;
-    margin-bottom: 5px;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -118,7 +103,9 @@ ul{
     margin-top: 100px;
     margin-left: 6%;
     margin-right: 6%;
+    max-width: 1300px;
 }
+
 .heroh1{
     font-family: arial;
     font-size: 55px;
@@ -127,6 +114,8 @@ ul{
     padding-left: 2%;
     padding-top: 50px;
 }
+
+
 
 .heroinfo{
     font-family: GeneralSans;
@@ -287,3 +276,7 @@ ul{
     margin-left: 30px;
     cursor: pointer;
 }
+
+
+/* BENTO SECTION TWO - - - - - - - -- - - - - - - - - - -  */
+
