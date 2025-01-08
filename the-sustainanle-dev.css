@@ -374,3 +374,80 @@ ul{
 
 /* --------- Section for BENTO C and D --------- */
 
+.RowBento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.Cbentobox{
+    height: 420px;
+    width: 750px;
+    background: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+    color: white;
+    border-radius: 10px;
+}
+
+.Cbentoh1{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.CBpara{
+    font-size: 18px;
+    margin-left: 30px;
+    word-wrap: break-word;
+    width: 650px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    margin-bottom: 20px;
+}
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Separate These two divs in here 
+for bento C and D bento      
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.Dbentobox{
+    height: 420px;
+    width: 500px;
+    background-color: rgb(255, 203, 112);
+    color: white;
+    border-radius: 10px;
+}
+
+.Dbentoh1{
+    padding-top: 20px;
+    margin-left: 30px;
+    color: black;
+}
+
+.DBpara{
+    font-size: 18px;
+    margin-left: 30px;
+    word-wrap: break-word;
+    width:400px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    margin-bottom: 20px;
+    color: black;
+
+}
+
+.DBparaBut{
+    height: 40px;
+    font-size: 15px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    margin-top: 40px;
+}
