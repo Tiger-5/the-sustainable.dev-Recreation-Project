@@ -457,12 +457,11 @@ for bento C and D bento
 .spbox1{
     background-color: white;
     height: 300px;
-    width: 450px;
+    width: 410px;
     color: black;
     margin: 0%;
     padding: 0%;
     border-radius: 10px;
-    margin-left: 6%;
 }
 
 .ATh3{
@@ -495,7 +494,59 @@ for bento C and D bento
 .spbox2{
     background-color: white;
     height: 300px;
-    width: 450px;
+    width: 410px;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 10px;
+
+}
+
+.ATh2{
+    padding-top: 70px;
+    font-family: GeneralSansLightBold;
+    margin-left: 30px;
+}
+
+.sponP2{
+    margin-left: 30px;
+    word-wrap: break-word;
+    width: 350px;
+    font-size: 18px;
+    
+}
+
+.linkspon2{
+    display: block;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+
+.ATh3{
+    padding-top: 70px;
+    font-family: GeneralSansLightBold;
+    margin-left: 30px;
+}
+
+.sponP3{
+    margin-left: 30px;
+    word-wrap: break-word;
+    width: 350px;
+    font-size: 18px;
+    
+}
+
+.linkspon3{
+    display: block;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.spbox3{
+    background-color: white;
+    height: 300px;
+    width: 410px;
     color: black;
     margin: 0%;
     padding: 0%;
