@@ -79,19 +79,6 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Nav Bar------------------------------------------- */
 
 .herobox{
@@ -450,4 +437,68 @@ for bento C and D bento
     border-radius: 5px;
     width: 160px;
     margin-top: 40px;
+}
+
+
+
+/* SPONSORS SECTION  - - -- - - -- - -- - - - -- - - -- - - - - */
+
+.sph3{
+    font-family: GeneralSansLightBold;
+    margin-left: 6%;
+    margin-bottom: 30px;
+}
+
+.sph1{
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.spbox1{
+    background-color: white;
+    height: 300px;
+    width: 450px;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 10px;
+    margin-left: 6%;
+}
+
+.ATh3{
+    padding-top: 70px;
+    font-family: GeneralSansLightBold;
+    margin-left: 30px;
+}
+
+.sponP{
+    margin-left: 30px;
+    word-wrap: break-word;
+    width: 350px;
+    font-size: 18px;
+    
+}
+
+.linkspon{
+    display: block;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.rowsponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.spbox2{
+    background-color: white;
+    height: 300px;
+    width: 450px;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 10px;
+
 }
