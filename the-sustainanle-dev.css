@@ -593,3 +593,10 @@ for bento C and D bento
     margin-bottom: 100px;
 }
 
+
+.rowfooter{
+    display: flex;
+    align-items: first baseline;
+    justify-content: start;
+    gap: 400px;
+}
