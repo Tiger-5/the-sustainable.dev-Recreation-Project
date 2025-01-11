@@ -18,7 +18,7 @@ body{
     margin: 0%;
     background-color: #252525;
     color: white;
-    height: 1000px;
+    height: 2900px;
     
 }
 
@@ -489,6 +489,7 @@ for bento C and D bento
     align-items: center;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 100px;
 }
 
 .spbox2{
@@ -553,3 +554,42 @@ for bento C and D bento
     border-radius: 10px;
 
 }
+
+.footerh1{
+    font-family: GeneralSans;
+    margin-left: 6%;
+    font-size: 30px;
+    word-wrap: break-word;
+    width: 240px;
+    margin-bottom: 50px;
+}
+
+.bold-this{
+    font-family: GeneralSansLightBold;
+}
+
+.footerdiv1{
+    margin-left: 6%;
+}
+
+.rowfooter{
+    color: white;
+}
+
+.linksweb1 ul{
+    list-style: none;
+}
+
+.linksUL a{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sush3{
+    font-family: GeneralSansLightBold;
+}
+
+.linksUL .jjsk{
+    margin-bottom: 100px;
+}
+
